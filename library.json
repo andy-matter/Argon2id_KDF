@@ -1,0 +1,38 @@
+{
+  "name": "Argon2id",
+  "version": "0.1.0",
+  "description": "Basic Argon2id Key derivation library",
+  "keywords": "Arduino, PlatformIO",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/andy-matter/Argon2id_KDF.git"
+  },
+  "dependencies":
+  [
+    {
+      "name": "ErrorCodes",
+      "version": "https://github.com/andy-matter/ErrorCodes.git"
+    },
+    {
+      "name": "Logger",
+      "version": "https://github.com/andy-matter/Logger.git"
+    },
+    {
+      "name": "CryptoCore",
+      "version": "https://github.com/andy-matter/CryptoCore.git"
+    }
+  ],
+  "authors":
+  [
+    {
+      "name": "andy-matter (Andreas)",
+      "email": "andy.matter.dev@gmail.com,",
+      "url": "https://github.com/andy-matter"
+    }
+  ],
+  "license": "NON",
+  "homepage": "",
+  "frameworks": "Arduino",
+  "platforms": ["atmelavr", "espressif8266", "espressif32", "stm32"]
+}
